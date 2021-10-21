@@ -1,0 +1,49 @@
+{
+    "name": "magenxcommerce/module-page-builder",
+    "description": "Page Builder module",
+    "require": {
+        "magenxcommerce/framework": "~103.0.3",
+        "magenxcommerce/module-eav": "*",
+        "magenxcommerce/module-store": "~101.1.3",
+        "magenxcommerce/module-backend": "~102.0.3",
+        "magenxcommerce/module-cms": "*",
+        "magenxcommerce/module-catalog": "~104.0.3",
+        "magenxcommerce/module-catalog-inventory": "*",
+        "magenxcommerce/module-config": "~101.2.3",
+        "magenxcommerce/module-ui": "*",
+        "magenxcommerce/module-variable": "*",
+        "magenxcommerce/module-widget": "*",
+        "magenxcommerce/module-catalog-widget": "*",
+        "magenxcommerce/module-rule": "~100.4.2",
+        "magenxcommerce/module-directory": "~100.4.3",
+        "magenxcommerce/module-email": "*",
+        "magenxcommerce/module-theme": "*",
+        "magenxcommerce/module-wishlist": "*",
+        "magenxcommerce/module-require-js": "*",
+        "magenxcommerce/module-media-storage": "*",
+        "php": "~7.3.0||~7.4.0",
+        "phpgt/dom": "2.1.6"
+    },
+    "suggest": {
+        "magenxcommerce/module-review": "*"
+    },
+    "conflict": {
+        "gene/bluefoot": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\PageBuilder\\": ""
+        }
+    },
+    "version": "2.2.1",
+    "replace": {
+        "magento/module-page-builder": "*"
+    }
+}
